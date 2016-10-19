@@ -42,15 +42,15 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "            <thead class=\"result-list-header\">\n" +
     "              <tr>\n" +
     "                <th class=\"col-2\">No</th>\n" +
-    "                <th class=\"col-7\">Orgininal URL</th>\n" +
+    "                <th class=\"col-7\">Original URL</th>\n" +
     "                <th class=\"col-3\">Short URL</th>\n" +
     "              </tr>\n" +
     "            </thead>\n" +
     "            <tbody class=\"result-body\">\n" +
     "              <tr ng-repeat=\"(key,value) in urlList\">\n" +
     "                <td class=\"col-1\">{{key+1}}</td>\n" +
-    "                <td class=\"col-7\"><a href=\"{{value.long_url}}\" class=\"link\">{{value.long_url}}</a></td>\n" +
-    "                <td class=\"col-4\"><a href=\"{{value.link}}\" class=\"link\">{{value.link}}</a></td>\n" +
+    "                <td class=\"col-7\"><a href=\"{{value.long_url}}\" class=\"link\" target=\"_blank\">{{value.long_url}}</a></td>\n" +
+    "                <td class=\"col-4\"><a href=\"{{value.link}}\" class=\"link\" target=\"_blank\" >{{value.link}}</a></td>\n" +
     "              </tr>\n" +
     "            </tbody>\n" +
     "          </table>\n" +
