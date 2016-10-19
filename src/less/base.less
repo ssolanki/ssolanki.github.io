@@ -1,0 +1,67 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: @primary-color;
+  background-color: @white;
+}
+input, button{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.link{
+  color: @anchor-color;
+  cursor: pointer;
+}
+.button{
+  padding: 7px 15px;
+  color: @white;
+  background-color: @black-light;
+  background: -webkit-linear-gradient(@black-lightest, @black-light);
+  background: linear-gradient(@black-lightest, @black-light);
+  border: 0 none;
+  cursor: pointer;
+  .border-radius(3px);
+  &:hover{
+    background: -webkit-linear-gradient(@black-light, @black);
+    background: linear-gradient(@black-light, @black);
+  }
+}
+.input-field{
+  border: 1px solid @gray;
+  padding: 7px;
+  outline: none;
+  .border-radius(3px);
+  .box-shadow(1px 1px 4px @gray-light);
+  .box-sizing(border-box);
+  &:focus{
+    border: 1px solid @black-light;
+  }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+
+.bg-error{
+  background-color: @bg-error;
+}
+.bg-success{
+  background-color: @bg-success;
+}
+
+.no-padding{
+  padding: 0;
+}
