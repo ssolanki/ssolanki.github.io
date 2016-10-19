@@ -1,3 +1,4 @@
+
 # Rentomojo Assignment:
 This is rentomojo assignment with help of [ngBoilerplate](`https://github.com/ngbp/ngbp`) which is based upon:
 ***
@@ -27,4 +28,4 @@ Happy hacking!
 [LESS](http://lesscss.org). Lastly, it contains a sophisticated
 [Grunt](http://gruntjs.org)-based build system to ensure maximum productivity.
 # rentomojo
-# ssolanki.github.io
+ 
