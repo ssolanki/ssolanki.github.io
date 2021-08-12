@@ -7652,7 +7652,7 @@ body.single-cata_testimonials .cata-testimonial-single .cata-info{margin-bottom:
 .cata-callaction.cata-style6 .content-wrapper .callaction-btn{margin-top:35px}
 .cata-callaction.cata-style6 .content-wrapper.no-desc .callaction-btn{margin-top:25px}
 .cata-single-image.img-right{text-align:right}
-.cata-single-image.img-center{text-align:center}
+.cata-single-image.img-center{text-align:center; position: relative;}
 .cata-single-image > div figure a{display:block;position:relative;z-index:3}
 .cata-single-image img{margin:0;max-width:100%;vertical-align:top}
 .cata-single-image > div{position:relative;padding:0}
@@ -7724,6 +7724,14 @@ body.single-cata_testimonials .cata-testimonial-single .cata-info{margin-bottom:
 .cata-single-image.effect-3d > div figure:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);box-shadow:0 0 100px 50px rgba(0,0,0,0.5);opacity:.15;transform:rotateX(95deg) translateZ(-80px) scale(0.75);transform-origin:bottom}
 .cata-single-image.effect-3d > div figure:hover::before{opacity:1;box-shadow:0 0 25px 25px rgba(0,0,0,0.5);transform:rotateX(0) translateZ(-60px) scale(0.85)}
 .cata-image-title.img-right{text-align:right;float:right}
+.cats-image-icon{
+    height: 60px;
+    width: 150px;
+    position: relative;
+    bottom: 15px;
+    z-index: 400;
+    left: 0px;
+}
 .cata-image-title.img-center{text-align:center}
 .cata-image-title > div figure *{-webkit-box-sizing:border-box;box-sizing:border-box}
 .cata-image-title > div figure a{display:block;position:relative;z-index:3}
@@ -8558,11 +8566,24 @@ body.header-overlap.header-below-pagetitle #cata-main-header:not(.v3){margin-top
     height: 350px;
     border-radius: 50%;}
 
+.recp-circle-container .cata-image-icon{
+    height: 66px;
+    width: 160px;
+    position: relative;
+    bottom: 40px;
+    z-index: 400;
+    left: 0px;
+    border-radius: 0px;
+}
 @media only screen and (min-width:320px) and (max-width:519px) {
-    .recp-circle-container img{   height: 300px;
-    width: 300px;}
-.recp-name{font-size: 48px; line-height: 56px;}
+    .recp-circle-container .cata-image-img{  
+         height: 300px;
+        width: 300px;
+    }
 
+    .recp-name{font-size: 48px; line-height: 56px;}
+    .vc_item .vc_inner {    width: 360px;
+        height: 280px;}
 }
 
 #search-outer{position:fixed;display:none;width:100%;height:80px;z-index:10000;cursor:pointer;-webkit-transition:-webkit-transform .33s ease;transition:transform .3s ease;-webkit-backface-visibility:hidden;background-color:#fff;-webkit-box-shadow:0 1px 6px rgba(0,0,0,.1);-moz-box-shadow:0 1px 6px rgba(0,0,0,.1);box-shadow:0 1px 6px rgba(0,0,0,.1)}
