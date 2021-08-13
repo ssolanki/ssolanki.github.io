@@ -8574,8 +8574,16 @@ body.header-overlap.header-below-pagetitle #cata-main-header:not(.v3){margin-top
     }
 
     .recp-name{font-size: 48px; line-height: 56px;}
-    .vc_item .vc_inner {    width: 360px;
-        height: 280px;}
+    .vc_item .vc_inner {    
+        width: 360px;
+        height: 280px;
+    }
+    .tp-caption.tp-resizeme{
+        font-size: 18px !important;
+    }
+    .tp-caption.tp-resizeme.slider-main-font {
+        font-size: 44px !important;
+    }
 }
 .recp-circle-container .cata-image-icon{
     height: 66px !important;
